@@ -30,12 +30,6 @@ if (process.env.NODE_ENV !== 'test') {
         console.log("Connected !");
     });
 };
-//mongoose.connect(urlDb);
-//var db = mongoose.connection;
-//db.on('error', console.error.bind(console, 'connection error:'));
-//db.once('open', function (callback) {
-    //console.log("Connected !");
-//});
 
 // ====================================
 //          Initialisation
